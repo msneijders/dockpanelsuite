@@ -193,20 +193,20 @@ namespace WeifenLuo.WinFormsUI.Docking
             return DockHandler.IsDockStateValid(dockState);
         }
 
-        /// <summary>
-        /// Context menu.
-        /// </summary>
-        /// <remarks>
-        /// This property should be obsolete as it does not support theming. Please use <see cref="TabPageContextMenuStrip"/> instead.
-        /// </remarks>
-        [LocalizedCategory("Category_Docking")]
-        [LocalizedDescription("DockContent_TabPageContextMenu_Description")]
-        [DefaultValue(null)]
-        public ContextMenu TabPageContextMenu
-        {
-            get { return DockHandler.TabPageContextMenu; }
-            set { DockHandler.TabPageContextMenu = value; }
-        }
+        ///////// <summary>
+        ///////// Context menu.
+        ///////// </summary>
+        ///////// <remarks>
+        ///////// This property should be obsolete as it does not support theming. Please use <see cref="TabPageContextMenuStrip"/> instead.
+        ///////// </remarks>
+        //////[LocalizedCategory("Category_Docking")]
+        //////[LocalizedDescription("DockContent_TabPageContextMenu_Description")]
+        //////[DefaultValue(null)]
+        //////public ContextMenu TabPageContextMenu
+        //////{
+        //////    get { return DockHandler.TabPageContextMenu; }
+        //////    set { DockHandler.TabPageContextMenu = value; }
+        //////}
 
         /// <summary>
         /// Context menu strip.

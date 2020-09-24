@@ -727,7 +727,7 @@ namespace WeifenLuo.WinFormsUI.Docking
                 return DockHelper.IsDockStateValid(dockState, DockAreas);
         }
 
-        public ContextMenu TabPageContextMenu { get; set; }
+        //////public ContextMenu TabPageContextMenu { get; set; }
 
         public string ToolTipText { get; set; }
 
