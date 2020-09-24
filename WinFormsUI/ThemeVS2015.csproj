@@ -27,7 +27,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <DebugType>pdbonly</DebugType>
+    <DebugType>none</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
     <DefineConstants>TRACE</DefineConstants>
@@ -137,6 +137,7 @@
     <None Include="license.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="ThemeVS2015.nuspec" />
     <None Include="ThemeVS2015\Resources\vs2015blue.vstheme.gz" />
     <None Include="ThemeVS2015\Resources\vs2015dark.vstheme.gz" />
     <None Include="ThemeVS2015\Resources\vs2015light.vstheme.gz" />
